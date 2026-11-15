@@ -36,9 +36,9 @@
       - All routes (`/sitemap.xml`, `/robots.txt`, `/site.webmanifest`, `/images/og-image.jpg`) return HTTP 200 OK.
       - Lighthouse Audit: **SEO 100/100**, **Best Practices 100/100**, **Accessibility 100/100**.
   - Now:
-    - Initializing Git repository locally, staging all project code, committing, and pushing to https://github.com/imaadi07/The-Art-of-Aroma.git.
+    - Guiding user on fixing the typo in their git push command (`-origin` -> `origin`).
   - Next:
-    - Confirm successful push and verify remote branch state.
+    - User executes `git push -u origin main` in their PowerShell terminal.
 - Open questions (UNCONFIRMED if needed):
   - None currently blocking.
 - Working set (files/ids/commands):
