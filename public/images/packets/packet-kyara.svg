@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 900" width="400" height="900">
+  <defs>
+    <!-- Background Paper Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#241E18" />
+      <stop offset="50%" stop-color="#1B1612" />
+      <stop offset="100%" stop-color="#120F0C" />
+    </linearGradient>
+
+    <!-- Gold Foil Gradient -->
+    <linearGradient id="goldFoil" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5E3BE" />
+      <stop offset="35%" stop-color="#D4AF37" />
+      <stop offset="70%" stop-color="#AA8232" />
+      <stop offset="100%" stop-color="#EED59B" />
+    </linearGradient>
+
+    <!-- Washi Paper Inset -->
+    <linearGradient id="washiPaper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F0" />
+      <stop offset="50%" stop-color="#F2EDE2" />
+      <stop offset="100%" stop-color="#E5DEC9" />
+    </linearGradient>
+
+    <!-- Drop Shadow -->
+    <filter id="boxShadow" x="-20%" y="-10%" width="140%" height="130%">
+      <feDropShadow dx="0" dy="25" stdDeviation="30" flood-color="#000000" flood-opacity="0.85" />
+    </filter>
+  </defs>
+
+  <!-- Box Outer Shadow & Body -->
+  <g filter="url(#boxShadow)">
+    <rect x="50" y="40" width="300" height="820" rx="4" fill="url(#bgGrad)" stroke="#3D3428" stroke-width="1.5" />
+  </g>
+
+  <!-- Outer Fine Gold Inset Rule -->
+  <rect x="62" y="52" width="276" height="796" rx="2" fill="none" stroke="url(#goldFoil)" stroke-width="0.8" opacity="0.6" />
+
+  <!-- Center Washi Calligraphy Band -->
+  <rect x="110" y="80" width="180" height="740" fill="url(#washiPaper)" rx="1" />
+  <rect x="114" y="84" width="172" height="732" fill="none" stroke="#D1C7B2" stroke-width="0.6" />
+
+  <!-- Top Seal / Emblem -->
+  <circle cx="200" cy="140" r="28" fill="none" stroke="#241E18" stroke-width="1.2" />
+  <circle cx="200" cy="140" r="24" fill="none" stroke="#9E2A2B" stroke-width="0.8" stroke-dasharray="2 2" />
+  <path d="M194 130 C194 137 200 139 200 148 C200 139 206 137 206 130 Z" fill="#9E2A2B" />
+
+  <!-- Traditional Vertical Title: 伽羅 (Kyara) -->
+  <text x="200" y="235" font-family="'Cormorant Garamond', serif, 'Yu Mincho'" font-size="38" font-weight="600" fill="#1C1814" text-anchor="middle" letter-spacing="8">伽</text>
+  <text x="200" y="285" font-family="'Cormorant Garamond', serif, 'Yu Mincho'" font-size="38" font-weight="600" fill="#1C1814" text-anchor="middle" letter-spacing="8">羅</text>
+  <text x="200" y="335" font-family="'Cormorant Garamond', serif, 'Yu Mincho'" font-size="28" font-weight="400" fill="#4A3F33" text-anchor="middle" letter-spacing="6">香</text>
+
+  <!-- Divider Line -->
+  <line x1="160" y1="365" x2="240" y2="365" stroke="#9E2A2B" stroke-width="1" />
+
+  <!-- Western Editorial Typography -->
+  <text x="200" y="405" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C7355" text-anchor="middle" letter-spacing="4">FORMULATION 01</text>
+  <text x="200" y="435" font-family="'Cormorant Garamond', Georgia, serif" font-size="22" font-style="italic" fill="#1C1814" text-anchor="middle" letter-spacing="2">Kyara Woods</text>
+  <text x="200" y="460" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#756A5B" text-anchor="middle" letter-spacing="2">DEEP IMPERIAL AGARWOOD</text>
+
+  <!-- Gold Cinnabar Artisan Stamp (Hanko) -->
+  <g transform="translate(180, 500)">
+    <rect x="0" y="0" width="40" height="40" fill="#A83232" rx="3" />
+    <text x="20" y="19" font-family="'Yu Mincho', serif" font-size="12" fill="#FAF7F0" font-weight="bold" text-anchor="middle">淡路</text>
+    <text x="20" y="33" font-family="'Yu Mincho', serif" font-size="12" fill="#FAF7F0" font-weight="bold" text-anchor="middle">謹製</text>
+  </g>
+
+  <!-- Stick Spec Info -->
+  <text x="200" y="580" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#756A5B" text-anchor="middle" letter-spacing="3">45 CONTEMPLATIVE MIN</text>
+  <text x="200" y="605" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#8C7355" text-anchor="middle" letter-spacing="2.5">36 DAYS CASK MATURED</text>
+  <text x="200" y="630" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#A39682" text-anchor="middle" letter-spacing="2">100% PURE TABU-NO-KI</text>
+
+  <!-- Gold Thread Tie Ribbon Wrap -->
+  <rect x="50" y="660" width="300" height="18" fill="url(#goldFoil)" />
+  <line x1="50" y1="660" x2="350" y2="660" stroke="#7A5D20" stroke-width="1" />
+  <line x1="50" y1="678" x2="350" y2="678" stroke="#7A5D20" stroke-width="1" />
+
+  <!-- Bottom Brand Footer -->
+  <text x="200" y="740" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#1C1814" text-anchor="middle" letter-spacing="4">THE ART OF AROMA</text>
+  <text x="200" y="762" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" fill="#8C7355" text-anchor="middle" letter-spacing="3">AWAJI ISLAND • JAPAN</text>
+</svg>

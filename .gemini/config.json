@@ -1,0 +1,33 @@
+{
+  "rules": {
+    "continuity-ledger": true,
+    "separation-of-concerns": true,
+    "error-learning": true,
+    "error-prevention": true,
+    "implementation-tracking": true,
+    "task-management": true,
+    "product-documentation": true,
+    "no-speculation": true,
+    "architecture-documentation": true,
+    "test-driven-validation": true,
+    "incremental-tasks": true,
+    "context-hygiene": true,
+    "security-sensitive-data": true
+  },
+  "project": {
+    "name": "THE ART OF AROMA",
+    "type": "web-3d-experience",
+    "techStack": [
+      "React 19",
+      "Vite 8",
+      "Three.js",
+      "React Three Fiber",
+      "@react-three/drei",
+      "GSAP",
+      "ScrollTrigger",
+      "Lenis",
+      "Tailwind CSS v4"
+    ]
+  }
+}
+

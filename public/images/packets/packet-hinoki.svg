@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 900" width="400" height="900">
+  <defs>
+    <linearGradient id="bgGradHinoki" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#222B23" />
+      <stop offset="50%" stop-color="#182019" />
+      <stop offset="100%" stop-color="#101511" />
+    </linearGradient>
+
+    <linearGradient id="sageGoldFoil" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2E8D8" />
+      <stop offset="40%" stop-color="#A3B18A" />
+      <stop offset="80%" stop-color="#588157" />
+      <stop offset="100%" stop-color="#C5D3B0" />
+    </linearGradient>
+
+    <linearGradient id="washiHinoki" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FBF9F5" />
+      <stop offset="50%" stop-color="#F3EFE6" />
+      <stop offset="100%" stop-color="#E5DEC9" />
+    </linearGradient>
+
+    <filter id="boxShadowHinoki" x="-20%" y="-10%" width="140%" height="130%">
+      <feDropShadow dx="0" dy="25" stdDeviation="30" flood-color="#000000" flood-opacity="0.85" />
+    </filter>
+  </defs>
+
+  <g filter="url(#boxShadowHinoki)">
+    <rect x="50" y="40" width="300" height="820" rx="4" fill="url(#bgGradHinoki)" stroke="#2F3B30" stroke-width="1.5" />
+  </g>
+
+  <rect x="62" y="52" width="276" height="796" rx="2" fill="none" stroke="url(#sageGoldFoil)" stroke-width="0.8" opacity="0.6" />
+
+  <rect x="110" y="80" width="180" height="740" fill="url(#washiHinoki)" rx="1" />
+  <rect x="114" y="84" width="172" height="732" fill="none" stroke="#CED6C4" stroke-width="0.6" />
+
+  <!-- Top Cypress Leaf Emblem -->
+  <circle cx="200" cy="140" r="28" fill="none" stroke="#222B23" stroke-width="1.2" />
+  <circle cx="200" cy="140" r="24" fill="none" stroke="#588157" stroke-width="0.8" stroke-dasharray="2 2" />
+  <path d="M200 125 L207 140 L200 137 L193 140 Z M200 137 L209 152 L200 148 L191 152 Z" fill="#588157" />
+
+  <!-- Traditional Vertical Title: 檜 (Hinoki) -->
+  <text x="200" y="245" font-family="'Cormorant Garamond', serif, 'Yu Mincho'" font-size="44" font-weight="600" fill="#182019" text-anchor="middle" letter-spacing="8">檜</text>
+  <text x="200" y="315" font-family="'Cormorant Garamond', serif, 'Yu Mincho'" font-size="30" font-weight="400" fill="#3A4739" text-anchor="middle" letter-spacing="6">霧</text>
+
+  <line x1="160" y1="365" x2="240" y2="365" stroke="#588157" stroke-width="1" />
+
+  <text x="200" y="405" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#588157" text-anchor="middle" letter-spacing="4">FORMULATION 02</text>
+  <text x="200" y="435" font-family="'Cormorant Garamond', Georgia, serif" font-size="22" font-style="italic" fill="#182019" text-anchor="middle" letter-spacing="2">Hinoki Mist</text>
+  <text x="200" y="460" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#5E6B5A" text-anchor="middle" letter-spacing="2">MISTED KYOTO CYPRESS</text>
+
+  <!-- Artisan Seal -->
+  <g transform="translate(180, 500)">
+    <rect x="0" y="0" width="40" height="40" fill="#4B6648" rx="3" />
+    <text x="20" y="19" font-family="'Yu Mincho', serif" font-size="12" fill="#FBF9F5" font-weight="bold" text-anchor="middle">淡路</text>
+    <text x="20" y="33" font-family="'Yu Mincho', serif" font-size="12" fill="#FBF9F5" font-weight="bold" text-anchor="middle">謹製</text>
+  </g>
+
+  <text x="200" y="580" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#5E6B5A" text-anchor="middle" letter-spacing="3">45 CONTEMPLATIVE MIN</text>
+  <text x="200" y="605" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#588157" text-anchor="middle" letter-spacing="2.5">36 DAYS CASK MATURED</text>
+  <text x="200" y="630" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#889682" text-anchor="middle" letter-spacing="2">WHITE HINOKI &amp; MOSS</text>
+
+  <rect x="50" y="660" width="300" height="18" fill="url(#sageGoldFoil)" />
+  <line x1="50" y1="660" x2="350" y2="660" stroke="#3E543B" stroke-width="1" />
+  <line x1="50" y1="678" x2="350" y2="678" stroke="#3E543B" stroke-width="1" />
+
+  <text x="200" y="740" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#182019" text-anchor="middle" letter-spacing="4">THE ART OF AROMA</text>
+  <text x="200" y="762" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" fill="#588157" text-anchor="middle" letter-spacing="3">KISO VALLEY • JAPAN</text>
+</svg>

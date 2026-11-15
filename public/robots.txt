@@ -1,0 +1,17 @@
+# ==============================================================================
+# THE ART OF AROMA — robots.txt
+# Full crawl accessibility for search engines with canonical sitemap pointer
+# ==============================================================================
+
+User-agent: *
+Allow: /
+Allow: /images/
+Allow: /images/packets/
+Allow: /favicon.svg
+Allow: /site.webmanifest
+
+# Crawl Delay optimization for gentle indexing
+Crawl-delay: 1
+
+# Canonical XML Sitemap
+Sitemap: https://theartofaroma.com/sitemap.xml

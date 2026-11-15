@@ -1,0 +1,20 @@
+{
+  "name": "THE ART OF AROMA — Haute Parfumerie & Sacred Incense Sanctuary",
+  "short_name": "Art of Aroma",
+  "description": "Rooted in centuries of Japanese Koh-do tradition. Sacred artisanal incense sticks hand-extruded from wild-harvested woods on Awaji Island, Japan.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8F5EE",
+  "theme_color": "#F8F5EE",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["lifestyle", "shopping", "culture"],
+  "lang": "en"
+}

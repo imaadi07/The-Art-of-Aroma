@@ -1,0 +1,96 @@
+@import "tailwindcss";
+@import "./typography.css";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* THE ART OF AROMA Visual Identity Palette - Calming Wabi-Sabi Sanctuary */
+  --color-aroma-noir: #F8F5EE;       /* Background: Calming morning washi / serene warm linen */
+  --color-aroma-ivory: #241F1C;      /* Primary text: Deep contemplative Sumi ink */
+  --color-aroma-grey: #5D544C;       /* Secondary text: Soft sandalwood stone */
+  --color-aroma-dark: #FFFFFF;       /* Clean surface */
+  --color-aroma-surface: #F2ECE1;    /* Elevated surface */
+  --color-aroma-stone: #DDD4C7;      /* Borders: Subtle unbleached linen border */
+  --color-aroma-gold: #8A6B42;       /* Accent: Warm antique sacred brass / sandalwood */
+  --color-aroma-ember: #E06018;      /* Ember: Incandescent flame */
+  --color-aroma-ash: #8A8074;
+  --color-aroma-sand: #EAE3D6;
+  --color-aroma-cream: #FAF7F2;
+}
+
+/* ==========================================================================
+   Base Layer & Reset
+   ========================================================================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-sans);
+  background-color: #F8F5EE;
+  color: #241F1C;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #F8F5EE;
+  color: #241F1C;
+  overflow-x: hidden;
+}
+
+/* ==========================================================================
+   Lenis Smooth Scrolling Requirements
+   ========================================================================== */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: clip;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+/* ==========================================================================
+   Editorial Typography & Micro-Utility Classes
+   ========================================================================== */
+.font-editorial-serif {
+  font-family: var(--font-serif);
+}
+
+.font-editorial-sans {
+  font-family: var(--font-sans);
+}
+
+.eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.6875rem; /* 11px */
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: #8A6B42;
+}
+
+/* Subtle architectural border */
+.tactile-border {
+  border: 1px solid #DDD4C7;
+}

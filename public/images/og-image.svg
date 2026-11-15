@@ -1,0 +1,96 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bgGrad" cx="70%" cy="25%" r="75%">
+      <stop offset="0%" stop-color="#F2ECE1" />
+      <stop offset="60%" stop-color="#F8F5EE" />
+      <stop offset="100%" stop-color="#F4EFE7" />
+    </radialGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(212, 168, 106, 0.25)" />
+      <stop offset="100%" stop-color="rgba(248, 245, 238, 0)" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="630" fill="url(#bgGrad)" />
+
+  <!-- Atmospheric Glow Orbs -->
+  <circle cx="950" cy="220" r="280" fill="url(#sunGlow)" />
+  <circle cx="200" cy="450" r="220" fill="url(#sunGlow)" opacity="0.6" />
+
+  <!-- Outer Architectural Border Frame -->
+  <rect x="40" y="40" width="1120" height="550" rx="16" fill="none" stroke="#DDD4C7" stroke-width="1.5" />
+  <rect x="52" y="52" width="1096" height="526" rx="10" fill="none" stroke="#8A6B42" stroke-width="0.8" stroke-opacity="0.4" stroke-dasharray="6 4" />
+
+  <!-- Corner Floral Accents -->
+  <circle cx="40" cy="40" r="4" fill="#8A6B42" />
+  <circle cx="1160" cy="40" r="4" fill="#8A6B42" />
+  <circle cx="40" cy="590" r="4" fill="#8A6B42" />
+  <circle cx="1160" cy="590" r="4" fill="#8A6B42" />
+
+  <!-- Brand Eyebrow -->
+  <text x="100" y="140" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" letter-spacing="0.32em" fill="#8A6B42" text-transform="uppercase">
+    HAUTE PARFUMERIE • AWAJI ISLAND HERITAGE
+  </text>
+
+  <!-- Main Brand Title -->
+  <text x="100" y="220" font-family="'Cormorant Garamond', Georgia, serif" font-size="64" font-weight="300" letter-spacing="0.12em" fill="#241F1C">
+    THE ART OF AROMA
+  </text>
+
+  <!-- Subtitle -->
+  <text x="100" y="275" font-family="'Cormorant Garamond', Georgia, serif" font-size="28" font-style="italic" font-weight="400" fill="#8A6B42">
+    Sacred Mastery of Pure Botanical Koh-Do
+  </text>
+
+  <!-- Decorative Separator Line -->
+  <line x1="100" y1="315" x2="380" y2="315" stroke="#8A6B42" stroke-width="1.2" stroke-opacity="0.6" />
+
+  <!-- Narrative Summary Paragraph -->
+  <text x="100" y="365" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="300" fill="#5D544C" letter-spacing="0.04em">
+    Rooted in centuries of Japanese Koh-do tradition. Sacred artisanal incense sticks
+  </text>
+  <text x="100" y="395" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="300" fill="#5D544C" letter-spacing="0.04em">
+    extruded exclusively from wild-harvested woods, sacred resins, and natural Tabu-no-ki bark.
+  </text>
+
+  <!-- Key Provenance Metric Pills -->
+  <g transform="translate(100, 445)">
+    <!-- Pill 1 -->
+    <rect x="0" y="0" width="180" height="52" rx="6" fill="#FFFFFF" fill-opacity="0.75" stroke="#DDD4C7" stroke-width="1" />
+    <text x="20" y="26" font-family="'Cormorant Garamond', Georgia, serif" font-size="20" font-weight="600" fill="#241F1C">1876</text>
+    <text x="20" y="42" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600" letter-spacing="0.2em" fill="#8A6B42" text-transform="uppercase">AWAJI KILN</text>
+
+    <!-- Pill 2 -->
+    <rect x="200" y="0" width="190" height="52" rx="6" fill="#FFFFFF" fill-opacity="0.75" stroke="#DDD4C7" stroke-width="1" />
+    <text x="220" y="26" font-family="'Cormorant Garamond', Georgia, serif" font-size="20" font-weight="600" fill="#241F1C">100%</text>
+    <text x="220" y="42" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600" letter-spacing="0.2em" fill="#8A6B42" text-transform="uppercase">BOTANICAL WOODS</text>
+
+    <!-- Pill 3 -->
+    <rect x="410" y="0" width="190" height="52" rx="6" fill="#FFFFFF" fill-opacity="0.75" stroke="#DDD4C7" stroke-width="1" />
+    <text x="430" y="26" font-family="'Cormorant Garamond', Georgia, serif" font-size="20" font-weight="600" fill="#241F1C">45 MIN</text>
+    <text x="430" y="42" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600" letter-spacing="0.2em" fill="#8A6B42" text-transform="uppercase">MINDFUL BURN</text>
+  </g>
+
+  <!-- Right Visual: Ceremonial Seal & Incense Bundle Graphic -->
+  <g transform="translate(930, 315)">
+    <!-- Outer Seal Ring -->
+    <circle cx="0" cy="0" r="140" fill="#FFFFFF" fill-opacity="0.7" stroke="#DDD4C7" stroke-width="1.5" />
+    <circle cx="0" cy="0" r="126" fill="none" stroke="#8A6B42" stroke-width="1" stroke-opacity="0.5" stroke-dasharray="4 3" />
+
+    <!-- Ceremonial Emblem Monogram -->
+    <circle cx="0" cy="-5" r="42" fill="#F8F5EE" stroke="#8A6B42" stroke-width="1.2" />
+    <path d="M0 -32 C-6 -22 -12 -16 -12 -8 C-12 -1.4 -6.6 4 0 4 C6.6 4 12 -1.4 12 -8 C12 -16 6 -22 0 -32 Z" fill="#8A6B42" fill-opacity="0.15" stroke="#8A6B42" stroke-width="1.4" />
+    <path d="M-14 12 C-8 8 -4 6 0 6 C4 6 8 8 14 12" fill="none" stroke="#8A6B42" stroke-width="1.2" />
+    <line x1="0" y1="6" x2="0" y2="24" stroke="#8A6B42" stroke-width="1.4" />
+
+    <!-- Seal Typography -->
+    <text x="0" y="70" font-family="'Cormorant Garamond', Georgia, serif" font-size="18" font-weight="400" letter-spacing="0.25em" fill="#241F1C" text-anchor="middle">
+      KYOTO • AWAJI
+    </text>
+    <text x="0" y="90" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600" letter-spacing="0.35em" fill="#8A6B42" text-anchor="middle" text-transform="uppercase">
+      ATELIER SANCTUARY
+    </text>
+  </g>
+</svg>

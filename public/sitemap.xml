@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- Homepage & Essence Sanctuary -->
+  <url>
+    <loc>https://theartofaroma.com/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://theartofaroma.com/images/packets/square-kyara.svg</image:loc>
+      <image:title>Kyara Woods - Deep Imperial Agarwood Incense</image:title>
+      <image:caption>30-year aged wild agarwood heartwood from sacred Awaji kilns</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://theartofaroma.com/images/packets/square-hinoki.svg</image:loc>
+      <image:title>Hinoki Mist - Misted Kyoto Cypress and Temple Moss</image:title>
+      <image:caption>Sacred white hinoki and wet mountain granite incense formulation</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://theartofaroma.com/images/packets/square-sumi.svg</image:loc>
+      <image:title>Sumi and Shiso - Charred Pine Ash and Mineral Ink</image:title>
+      <image:caption>Charred pine ash and aristocratic mineral calligraphy ink incense</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://theartofaroma.com/images/packets/square-byakudan.svg</image:loc>
+      <image:title>Byakudan Sandalwood - Vintage Mysore Sandalwood and Silk</image:title>
+      <image:caption>Buttery vintage Indian sandalwood heartwood and silk ash incense</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://theartofaroma.com/images/sanctuary-temple.jpg</image:loc>
+      <image:title>The Art of Aroma Kyoto Atelier Sanctuary</image:title>
+      <image:caption>Contemplative timber meditation hall in Kyoto</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://theartofaroma.com/images/ritual-brass-bowl.jpg</image:loc>
+      <image:title>Hand-Turned Ceremonial Brass Incense Vessel</image:title>
+      <image:caption>Artisanal ceremonial brass cauldron holding Awaji incense sticks</image:caption>
+    </image:image>
+  </url>
+
+  <!-- About the Company / Heritage -->
+  <url>
+    <loc>https://theartofaroma.com/#about</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Products Collection / 4 Formulations in Orbit -->
+  <url>
+    <loc>https://theartofaroma.com/#products</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Contact & Atelier Concierge -->
+  <url>
+    <loc>https://theartofaroma.com/#contact</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>

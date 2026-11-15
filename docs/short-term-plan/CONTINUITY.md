@@ -1,0 +1,54 @@
+# Continuity Ledger
+
+- Goal (incl. success criteria):
+  - End-to-End SEO Optimization & Production QA: Completed full implementation per `@frontend-seo` and `@vibecode-production-qa-validator`:
+    - Canonical XML Sitemap (`public/sitemap.xml`) with Google Image tags indexing all 4 formulation plaques, vessel, and temple photography.
+    - Crawler directives (`public/robots.txt`) with explicit sitemap pointer.
+    - PWA Web App Manifest (`public/site.webmanifest`) with `#F8F5EE` theme.
+    - High-res Open Graph social sharing cards (1200x630 `public/images/og-image.*`).
+    - Single source of truth for SEO identity in `src/constants/seo.js` and `src/services/seo/structuredData.js`.
+    - Complete raw HTML `<head>` metadata in `index.html` (title, description, canonical link, Open Graph, Twitter large card).
+    - 4× Schema.org JSON-LD structured data scripts (Organization, WebSite, 4 Products ItemList, BreadcrumbList).
+    - 4KB semantic crawlable fallback (`<noscript>`) for headless search bots.
+    - Verified with Lighthouse: **SEO: 100**, **Best Practices: 100**, **Accessibility: 100**.
+  - Calming Meditative Color Palette: Authentic Japanese Wabi-Sabi Sanctuary aesthetic (#F8F5EE canvas, #241F1C Sumi ink, #8A6B42 brass).
+  - Scroll-Driven Incense Stick Bundle Rotation (Pages 1 & 2): 7-stick fanned bundle with multi-embers and silky smoke rotates smoothly with scroll.
+  - Final Resting Place on Page 2: Bundle firmly seated in brass cauldron on Page 2.
+  - Products Orbit: Separated cards with ~20cm airy gaps and generous negative space.
+  - Contact Section: 50/50 balance with Kyoto temple photography and glassmorphism.
+- Constraints/Assumptions:
+  - Canonical domain: `https://theartofaroma.com`.
+  - Zero 3D bleed-through.
+  - Fully reversible scroll transitions across all viewports.
+- State:
+  - Done:
+    - Created `public/sitemap.xml`.
+    - Created `public/robots.txt`.
+    - Created `public/site.webmanifest`.
+    - Created `public/images/og-image.svg` and `public/images/og-image.jpg`.
+    - Created `src/constants/seo.js` and `src/services/seo/structuredData.js`.
+    - Created `public/llms.txt` for AI search engines.
+    - Updated `index.html` with canonical tags, meta description, Open Graph, Twitter cards, 4× JSON-LD scripts, and semantic `<noscript>` fallback.
+    - Fixed minor contrast token in `src/sections/Flavors/FlavorsSection.jsx` to boost accessibility to 100.
+    - Verified with ESLint: 0 errors, 0 warnings.
+    - Verified with Vite build: clean compilation in 1.64s.
+    - Verified via Chrome DevTools MCP:
+      - All routes (`/sitemap.xml`, `/robots.txt`, `/site.webmanifest`, `/images/og-image.jpg`) return HTTP 200 OK.
+      - Lighthouse Audit: **SEO 100/100**, **Best Practices 100/100**, **Accessibility 100/100**.
+  - Now:
+    - Initializing Git repository locally, staging all project code, committing, and pushing to https://github.com/imaadi07/The-Art-of-Aroma.git.
+  - Next:
+    - Confirm successful push and verify remote branch state.
+- Open questions (UNCONFIRMED if needed):
+  - None currently blocking.
+- Working set (files/ids/commands):
+  - `public/sitemap.xml`
+  - `public/robots.txt`
+  - `public/site.webmanifest`
+  - `public/images/og-image.svg`
+  - `public/images/og-image.jpg`
+  - `public/llms.txt`
+  - `src/constants/seo.js`
+  - `src/services/seo/structuredData.js`
+  - `index.html`
+  - `src/sections/Flavors/FlavorsSection.jsx`

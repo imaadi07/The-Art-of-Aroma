@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 900" width="400" height="900">
+  <defs>
+    <linearGradient id="bgGradByakudan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D231A" />
+      <stop offset="50%" stop-color="#211811" />
+      <stop offset="100%" stop-color="#140E0A" />
+    </linearGradient>
+
+    <linearGradient id="amberSilkFoil" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCEFD2" />
+      <stop offset="35%" stop-color="#E0A96D" />
+      <stop offset="70%" stop-color="#B87333" />
+      <stop offset="100%" stop-color="#F5D7A1" />
+    </linearGradient>
+
+    <linearGradient id="washiByakudan" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF5" />
+      <stop offset="50%" stop-color="#F7F1E6" />
+      <stop offset="100%" stop-color="#EBE2D1" />
+    </linearGradient>
+
+    <filter id="boxShadowByakudan" x="-20%" y="-10%" width="140%" height="130%">
+      <feDropShadow dx="0" dy="25" stdDeviation="30" flood-color="#000000" flood-opacity="0.85" />
+    </filter>
+  </defs>
+
+  <g filter="url(#boxShadowByakudan)">
+    <rect x="50" y="40" width="300" height="820" rx="4" fill="url(#bgGradByakudan)" stroke="#423427" stroke-width="1.5" />
+  </g>
+
+  <rect x="62" y="52" width="276" height="796" rx="2" fill="none" stroke="url(#amberSilkFoil)" stroke-width="0.8" opacity="0.65" />
+
+  <rect x="110" y="80" width="180" height="740" fill="url(#washiByakudan)" rx="1" />
+  <rect x="114" y="84" width="172" height="732" fill="none" stroke="#D9CBB7" stroke-width="0.6" />
+
+  <!-- Sandalwood Blossom Emblem -->
+  <circle cx="200" cy="140" r="28" fill="none" stroke="#2D231A" stroke-width="1.2" />
+  <circle cx="200" cy="140" r="24" fill="none" stroke="#E0A96D" stroke-width="0.8" stroke-dasharray="2 2" />
+  <circle cx="200" cy="140" r="8" fill="#E0A96D" />
+
+  <!-- Traditional Vertical Title: 白檀 (Byakudan) -->
+  <text x="200" y="245" font-family="'Cormorant Garamond', serif, 'Yu Mincho'" font-size="44" font-weight="600" fill="#211811" text-anchor="middle" letter-spacing="8">白</text>
+  <text x="200" y="315" font-family="'Cormorant Garamond', serif, 'Yu Mincho'" font-size="30" font-weight="400" fill="#473424" text-anchor="middle" letter-spacing="6">檀</text>
+
+  <line x1="160" y1="365" x2="240" y2="365" stroke="#B87333" stroke-width="1" />
+
+  <text x="200" y="405" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#B87333" text-anchor="middle" letter-spacing="4">FORMULATION 04</text>
+  <text x="200" y="435" font-family="'Cormorant Garamond', Georgia, serif" font-size="22" font-style="italic" fill="#211811" text-anchor="middle" letter-spacing="2">Byakudan</text>
+  <text x="200" y="460" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#7D6249" text-anchor="middle" letter-spacing="2">VINTAGE MYSORE SANDALWOOD</text>
+
+  <!-- Artisan Seal -->
+  <g transform="translate(180, 500)">
+    <rect x="0" y="0" width="40" height="40" fill="#A84323" rx="3" />
+    <text x="20" y="19" font-family="'Yu Mincho', serif" font-size="12" fill="#FCFAF5" font-weight="bold" text-anchor="middle">淡路</text>
+    <text x="20" y="33" font-family="'Yu Mincho', serif" font-size="12" fill="#FCFAF5" font-weight="bold" text-anchor="middle">謹製</text>
+  </g>
+
+  <text x="200" y="580" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#7D6249" text-anchor="middle" letter-spacing="3">50 CONTEMPLATIVE MIN</text>
+  <text x="200" y="605" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#B87333" text-anchor="middle" letter-spacing="2.5">45 DAYS CASK MATURED</text>
+  <text x="200" y="630" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#9E8267" text-anchor="middle" letter-spacing="2">FLORENTINE ORRIS &amp; TONKA</text>
+
+  <rect x="50" y="660" width="300" height="18" fill="url(#amberSilkFoil)" />
+  <line x1="50" y1="660" x2="350" y2="660" stroke="#7A4B1D" stroke-width="1" />
+  <line x1="50" y1="678" x2="350" y2="678" stroke="#7A4B1D" stroke-width="1" />
+
+  <text x="200" y="740" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#211811" text-anchor="middle" letter-spacing="4">THE ART OF AROMA</text>
+  <text x="200" y="762" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" fill="#B87333" text-anchor="middle" letter-spacing="3">MYSORE &amp; AWAJI</text>
+</svg>

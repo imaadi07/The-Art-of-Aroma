@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 900" width="400" height="900">
+  <defs>
+    <linearGradient id="bgGradSumi" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1E1E" />
+      <stop offset="50%" stop-color="#141414" />
+      <stop offset="100%" stop-color="#0A0A0A" />
+    </linearGradient>
+
+    <linearGradient id="silverSootFoil" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5E5E5" />
+      <stop offset="40%" stop-color="#B0B0B0" />
+      <stop offset="80%" stop-color="#737373" />
+      <stop offset="100%" stop-color="#D4D4D4" />
+    </linearGradient>
+
+    <linearGradient id="washiSumi" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F7F7F7" />
+      <stop offset="50%" stop-color="#EEEEEE" />
+      <stop offset="100%" stop-color="#E0E0E0" />
+    </linearGradient>
+
+    <filter id="boxShadowSumi" x="-20%" y="-10%" width="140%" height="130%">
+      <feDropShadow dx="0" dy="25" stdDeviation="30" flood-color="#000000" flood-opacity="0.9" />
+    </filter>
+  </defs>
+
+  <g filter="url(#boxShadowSumi)">
+    <rect x="50" y="40" width="300" height="820" rx="4" fill="url(#bgGradSumi)" stroke="#2B2B2B" stroke-width="1.5" />
+  </g>
+
+  <rect x="62" y="52" width="276" height="796" rx="2" fill="none" stroke="url(#silverSootFoil)" stroke-width="0.8" opacity="0.6" />
+
+  <rect x="110" y="80" width="180" height="740" fill="url(#washiSumi)" rx="1" />
+  <rect x="114" y="84" width="172" height="732" fill="none" stroke="#D1D1D1" stroke-width="0.6" />
+
+  <!-- Ink Brush Circle (Enso) Emblem -->
+  <circle cx="200" cy="140" r="28" fill="none" stroke="#1A1A1A" stroke-width="1.2" />
+  <circle cx="200" cy="140" r="24" fill="none" stroke="#666666" stroke-width="2" stroke-dasharray="12 4" stroke-linecap="round" />
+
+  <!-- Traditional Vertical Title: 墨 (Sumi) -->
+  <text x="200" y="245" font-family="'Cormorant Garamond', serif, 'Yu Mincho'" font-size="44" font-weight="600" fill="#0D0D0D" text-anchor="middle" letter-spacing="8">墨</text>
+  <text x="200" y="315" font-family="'Cormorant Garamond', serif, 'Yu Mincho'" font-size="30" font-weight="400" fill="#333333" text-anchor="middle" letter-spacing="6">紫</text>
+
+  <line x1="160" y1="365" x2="240" y2="365" stroke="#1A1A1A" stroke-width="1.2" />
+
+  <text x="200" y="405" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#525252" text-anchor="middle" letter-spacing="4">FORMULATION 03</text>
+  <text x="200" y="435" font-family="'Cormorant Garamond', Georgia, serif" font-size="22" font-style="italic" fill="#0D0D0D" text-anchor="middle" letter-spacing="2">Sumi &amp; Shiso</text>
+  <text x="200" y="460" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#737373" text-anchor="middle" letter-spacing="2">PINE ASH &amp; MINERAL INK</text>
+
+  <!-- Artisan Seal -->
+  <g transform="translate(180, 500)">
+    <rect x="0" y="0" width="40" height="40" fill="#992B2B" rx="3" />
+    <text x="20" y="19" font-family="'Yu Mincho', serif" font-size="12" fill="#F7F7F7" font-weight="bold" text-anchor="middle">淡路</text>
+    <text x="20" y="33" font-family="'Yu Mincho', serif" font-size="12" fill="#F7F7F7" font-weight="bold" text-anchor="middle">謹製</text>
+  </g>
+
+  <text x="200" y="580" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#525252" text-anchor="middle" letter-spacing="3">45 CONTEMPLATIVE MIN</text>
+  <text x="200" y="605" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#737373" text-anchor="middle" letter-spacing="2.5">36 DAYS CASK MATURED</text>
+  <text x="200" y="630" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#8C8C8C" text-anchor="middle" letter-spacing="2">ROASTED BANCHA &amp; SOOT</text>
+
+  <rect x="50" y="660" width="300" height="18" fill="url(#silverSootFoil)" />
+  <line x1="50" y1="660" x2="350" y2="660" stroke="#404040" stroke-width="1" />
+  <line x1="50" y1="678" x2="350" y2="678" stroke="#404040" stroke-width="1" />
+
+  <text x="200" y="740" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#0D0D0D" text-anchor="middle" letter-spacing="4">THE ART OF AROMA</text>
+  <text x="200" y="762" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" fill="#525252" text-anchor="middle" letter-spacing="3">NARA &amp; AWAJI • JAPAN</text>
+</svg>
